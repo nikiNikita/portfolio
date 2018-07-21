@@ -1,0 +1,177 @@
+
+body{
+  background-color : black;
+  margin : 0px;
+  border : 0px;
+  padding : 0px;
+}
+
+div {
+  margin : 0px;
+  border : 0px;
+  padding : 0px;
+  display :  inline-block;
+}
+
+#basic-info{
+  width : 100%;
+  height : 100%;
+  background-color : gray;
+  margin : 0px;
+  border : 0px;
+  padding : 0px;
+}
+
+#aboutMeDec{
+  width : 100%;
+  height : 100%;
+  background-color : #5980A6;
+  margin : 0px;
+  border : 0px;
+  padding : 0px;
+
+}
+
+#educDetailDec{
+  width : 100%;
+  height : 100%;
+  background-color : #927DA4;
+  margin : 0px;
+  border : 0px;
+  padding : 0px;
+
+}
+
+#skillsDec{
+  width : 100%;
+  height : 100%;
+  background-color : #B584A0;
+  margin : 0px;
+  border : 0px;
+  padding : 0px;
+}
+
+#myWorksDec{
+  width : 100%;
+  height : 100%;
+  background-color : #927DA4;
+  margin : 0px;
+  border : 0px;
+  padding : 0px;
+}
+
+#profileImageBlock{
+  width : 40%;
+  height : auto;
+}
+
+#profileImg{
+  width :30%;
+  height : auto;
+  padding : 5%;
+}
+
+#contentButtonsBlock{
+  width : 50%;
+  height : auto;
+}
+
+#aboutMeDec , #educDetailDec , #skillsDec , #myWorksDec{
+    display : none;
+
+}
+
+
+
+
+
+li{
+  display :inline-block;
+  margin : 1px;
+
+}
+
+li a{
+  display: inline-block;
+  color : white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+p{
+  padding : 3%;
+  margin : 3px;
+}
+
+/*
+#educDetail{
+  width : 100px;
+  height : 100px;
+  position: relative;
+  animation-name : myWorksAni;
+  animation-duration: 10s;
+}
+
+@keyframes eduDetailAni{
+  0% {left : 0px ;top:0px;}
+  25% {left :100px ; top : 0px;}
+  50% {left :100px ; top: 100px;}
+  75% {left :0px ;top:100px;}
+  100% {left :0px ; top: 0px;}
+}
+
+
+#aboutMe{
+  width : 100px;
+  height : 100px;
+  position: relative;
+  animation-name : myWorksAni;
+  animation-duration: 10s;
+}
+
+@keyframes aboutMeAni{
+  0% {left : 0px ;top:0px;}
+  25% {left :100px ; top : 0px;}
+  50% {left :100px ; top: 100px;}
+  75% {left :0px ;top:100px;}
+  100% {left :0px ; top: 0px;}
+}
+
+#skills {
+  width : 100px;
+  height : 100px;
+  position: relative;
+  animation-name : myWorksAni;
+  animation-duration: 10s;
+}
+
+@keyframes SkillsAni{
+  0% {left : 0px ;top:0px;}
+  25% {left :100px ; top : 0px;}
+  50% {left :100px ; top: 100px;}
+  75% {left :0px ;top:100px;}
+  100% {left :0px ; top: 0px;}
+}
+
+#myWorks {
+  width : 100px;
+  height : 100px;
+  position: relative;
+  animation-name : myWorksAni;
+  animation-duration: 10s;
+}
+
+@keyframes myWorksAni{
+  0% {left : 0px ;top:0px;}
+  25% {left :100px ; top : 0px;}
+  50% {left :100px ; top: 100px;}
+  75% {left :0px ;top:100px;}
+  100% {left :0px ; top: 0px;}
+
+}
+*/
+
+p , pre {
+  color : white;
+}

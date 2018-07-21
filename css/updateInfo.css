@@ -1,0 +1,39 @@
+
+
+#logIn{
+  text-align : center;
+  padding-top : 45px;
+}
+
+#UpdateForm div {
+  display :none;
+}
+
+#UpdateForm div:target{
+  display: block;
+}
+
+ul {
+  width : 20%;
+  height : 100vh;
+  background-color:gray;
+
+}
+
+li{
+  color: white;
+  list-style-type: none;
+
+}
+
+a{
+  text-decoration :none;
+  color : white;
+  font-family: sans-serif,cursive,fantasy;
+  padding :9px;
+  left :0px;
+}
+
+a:hover{
+  color: red;
+}

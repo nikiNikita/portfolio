@@ -1,0 +1,49 @@
+<html>
+<head>
+   <title>Update Form </title>
+   <link rel="icon" type="image/icon" href="./image/logo.png" />
+   <meta name="description" content="Description Form">
+   <meta name="viewpoint" content="width=device-width , initial-scale=1.0">
+   <script type="text/javascript" src="./js/updateForm.js"></script>
+   <link rel="stylesheet" href="./css/updateInfo.css" >
+
+</head>
+
+<body onload="initalSetup()" >
+  <div id="logIn">
+      <form onsubmit="checkLoginDetails()" action="#">
+        <table align="center">
+          <tr>
+            <td>User ID </td>
+            <td><input type="text" id="userId" placeholder="User Id" /> </td>
+          </tr>
+          <tr>
+            <td>password </td>
+            <td><input type="password" id="userpassinput" placeholder="Password" /></td>
+          </tr>
+       </table>
+         <input type="submit" value="Login" ></button>
+         <p id="errorMsg"></p>
+
+     </form>
+
+      <input type="button" id="newReg" value="Register" onclick="regMember()"></input>
+  </div>
+  <div  id="UpdateForm">
+    <ul >
+       <li style="background-color:black; border:1px;"><b>OPTIONS</b></li>
+       <li><a href="about.html">ABOUT</a></li>
+       <li><a href="">SKILLS</a></li>
+       <li><a href="">QUALIFICATION</a></li>
+       <li><a href="">WORK</a></li>
+    </ul>
+  </div>
+  <div>
+
+
+  </div>
+
+</body>
+
+
+<html>
